@@ -57,15 +57,11 @@ void MhiPlatform::dump_config() {
         ESP_LOGCONFIG(TAG, "  external_temperature_sensor enabled!");
     }
 
-
     #define SCK_PIN_  7
     #define MOSI_PIN_ 9
     #define MISO_PIN_ 8
 
     ESP_LOGCONFIG(TAG, "  frame_size: %d", this->frame_size_);
-    //ESP_LOGCONFIG(TAG, "  frame_size: %d", this->frame_size_);
-    //ESP_LOGCONFIG(TAG, "  frame_size: %d", this->frame_size_);
-    //ESP_LOGCONFIG(TAG, "  frame_size: %d", this->frame_size_);
     ESP_LOGCONFIG(TAG, "  room_temp_api_timeout: %d", this->room_temp_api_timeout_);
     ESP_LOGCONFIG(TAG, "  listeners count: %d", this->listeners_.size());
 }
