@@ -6,10 +6,13 @@ from esphome.const import CONF_ID
 
 CONF_MHI_AC_CTRL_ID = "mhi_ac_ctrl_id"
 CONF_FRAME_SIZE = 'frame_size'
+
 CONF_ROOM_TEMP_TIMEOUT = 'room_temp_timeout'
 CONF_VANES_UD = 'initial_vertical_vanes_position'
 CONF_VANES_LR = 'initial_horizontal_vanes_position'
-
+CONF_MOSI_PIN = "mosi_pin"
+CONF_MISO_PIN = "miso_pin"
+CONF_SCLK_PIN = "sclk_pin"
 CONF_VANES_POSITION = 'position'
 CONF_TEMPERATURE = 'temperature'
 CONF_EXTERNAL_TEMPERATURE_SENSOR = 'external_temperature_sensor'
