@@ -1,6 +1,14 @@
 #pragma once
 
-#include <Arduino.h>
+#include <stdint.h>
+#include <atomic>
+#include <array>
+#include "esp_timer.h"
+#include "driver/gpio.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "freertos/semphr.h"
+
 
 // comment out the data you are not interested, but at least leave one row !
 const byte opdata[][2] PROGMEM = {
